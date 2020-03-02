@@ -12,6 +12,11 @@ nav {
   position: relative;
 }
 
+.paragraph-1{
+  font-size:22px;
+  font-weight:1;
+}
+
 .navbar-left {
   margin-left: 20px;
   width: 30%;
@@ -23,6 +28,16 @@ nav {
 .fas {
   margin-right: 30px;
 }
+
+.advert{
+  background-color: #f7f7f7;
+  height: 250px;
+  padding: 15px 0;
+  color: lightgray;
+  text-align: center;
+}
+
+.ad{ font-size: 20px; }
 
 .section a {
   color: black;
