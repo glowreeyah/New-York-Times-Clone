@@ -15,6 +15,8 @@ nav {
 .paragraph-1{
   font-size:22px;
   font-weight:1;
+  letter-spacing:0.7px;
+  line-height:2;
 }
 
 .navbar-left {
@@ -116,7 +118,7 @@ svg {
   font-size: 0.8rem;
 }
 
-.cambridge-main {
+.cambridge-main{
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
