@@ -244,3 +244,100 @@ svg {
   width: 40%;
   background-color: white;
 }
+
+.space-astronomy {
+  width: 90%;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.astronomy-links {
+  float: left;
+  width: 72%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.hr-left {
+  border: 0;
+  border-top: 1px solid black;
+}
+
+.astronomy-links h5 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.space-link1,
+.space-link2,
+.space-link3 {
+  overflow: hidden;
+  margin-bottom: 25px;
+  /* display: flex;
+      flex-direction: column;
+      padding-top: 0px;
+      padding-bottom: none; */
+}
+
+.link1 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.link2 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.link3 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.link1 img,
+.link2 img,
+.link3 img {
+  width: 100%;
+  height: auto;
+}
+
+#space1,
+#space2,
+#space3 {
+  margin-right: 0;
+}
+
+figure {
+  color: gray;
+  float: left;
+  text-align: right;
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 0.6875rem;
+  margin: 0;
+}
+
+.figcaption {
+  color: gray;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.astronomy-links a {
+  color: black;
+}
+
+.image-desc {
+  margin: 0;
+}
+
+.image-date {
+  color: gray;
+  font-size: 0.6875rem;
+  margin-top: 8px;
+}
+
