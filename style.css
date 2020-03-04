@@ -226,11 +226,11 @@ svg {
 }
 
 .caption {
-  font-family: nyt-franklin,Arial, Helvetica, sans-serif;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
   font-size: 0.75rem;
   color: gray;
   line-height: 1rem;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
 }
 
 .caption a {
@@ -315,8 +315,7 @@ figure {
   display: block;
   margin-bottom: 5px;
   width: 100%;
-  font-size: 0.6875rem;
-  margin: 0;
+  font-size: 0.6875rem
 }
 
 .figcaption {
@@ -365,6 +364,3 @@ figure {
   font-size: 11px;
   clear: both;
 }
-
-
-
