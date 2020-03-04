@@ -210,3 +210,27 @@ svg {
   margin-top: 24px;
   margin-bottom: 0px;
 }
+
+.professor {
+  color: #666;
+  font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-right: 7px;
+  margin-top: 5px;
+}
+.telescope {
+  width: 100%;
+  vertical-align: top;
+  height: auto;
+}
+.caption {
+    font-family: nyt-franklin,Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: gray;
+    line-height: 1rem;
+    margin: 0px auto 1em;
+}
+.caption a{
+    color: gray;
+}
