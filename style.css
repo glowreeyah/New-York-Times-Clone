@@ -12,11 +12,11 @@ nav {
   position: relative;
 }
 
-.paragraph-1{
-  font-size:22px;
-  font-weight:1;
-  letter-spacing:0.7px;
-  line-height:2;
+.paragraph-1 {
+  font-size: 22px;
+  font-weight: 1;
+  letter-spacing: 0.7px;
+  line-height: 2;
 }
 
 .navbar-left {
@@ -31,7 +31,7 @@ nav {
   margin-right: 30px;
 }
 
-.advert{
+.advert {
   background-color: #f7f7f7;
   height: 250px;
   padding: 15px 0;
@@ -39,7 +39,9 @@ nav {
   text-align: center;
 }
 
-.ad{ font-size: 20px; }
+.ad {
+  font-size: 20px;
+}
 
 .section a {
   color: black;
@@ -155,4 +157,56 @@ svg {
   align-items: center;
   justify-content: space-between;
   margin: 0;
+}
+
+.editor {
+  margin: auto 70px;
+  width: 18%;
+  float: right;
+}
+
+.opinion {
+  display: flex;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.opinion-desc {
+  width: 80px;
+  height: inherit;
+  float: left;
+  margin-right: 10px;
+}
+
+.opinion-title {
+  font-size: 14px;
+  color: black;
+}
+
+.inflation-desc {
+  height: auto;
+  width: 63%;
+  padding: 0;
+  position: relative;
+  margin-left: 20%;
+}
+
+.author-inflation {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  position: relative;
+  width: 70%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.author-inflation hr {
+  color: black;
+  width: 8%;
+  margin-left: 1%;
+  margin-top: 24px;
+  margin-bottom: 0px;
 }
