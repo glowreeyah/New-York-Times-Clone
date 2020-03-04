@@ -44,7 +44,6 @@ nav {
 }
 
 .section a {
-  color: black;
   font-weight: 700;
   font-size: 14.25px;
   font-family: Arial, Helvetica, sans-serif, nyt-franklin;
@@ -139,7 +138,7 @@ svg {
   letter-spacing: 0.02em;
   font-size: 0.875rem;
   margin: 0;
-  font: bold;
+  font-weight: bold;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
 }
 
@@ -165,20 +164,20 @@ svg {
   float: right;
 }
 
-.opinion {
+.pick {
   display: flex;
   margin-top: 15px;
   padding: 0;
 }
 
-.opinion-desc {
+.pick-desc {
   width: 80px;
   height: inherit;
   float: left;
   margin-right: 10px;
 }
 
-.opinion-title {
+.pick-title {
   font-size: 14px;
   color: black;
 }
@@ -208,7 +207,7 @@ svg {
   width: 8%;
   margin-left: 1%;
   margin-top: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .professor {
@@ -219,21 +218,23 @@ svg {
   margin-right: 7px;
   margin-top: 5px;
 }
+
 .telescope {
   width: 100%;
   vertical-align: top;
   height: auto;
 }
+
 .caption {
-    font-family: nyt-franklin,Arial, Helvetica, sans-serif;
-    font-size: 0.75rem;
-    color: gray;
-    line-height: 1rem;
-    margin: 0px auto 1em;
+  font-family: nyt-franklin,Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  color: gray;
+  line-height: 1rem;
+  margin: 0px auto 1em;
 }
 
-.caption a{
-    color: gray;
+.caption a {
+  color: gray;
 }
 
 .reader-links {
@@ -273,10 +274,7 @@ svg {
 .space-link3 {
   overflow: hidden;
   margin-bottom: 25px;
-  /* display: flex;
-      flex-direction: column;
-      padding-top: 0px;
-      padding-bottom: none; */
+  padding-bottom: 0;
 }
 
 .link1 {
@@ -345,16 +343,19 @@ figure {
   border-top: 1px solid lightgray;
   border: 0;
 }
+
 .popular-aside {
   float: right;
   padding-top: 30px;
   padding-bottom: 50px;
   width: 25%;
 }
+
 .popular-aside a {
   color: black;
   text-decoration: none;
 }
+
 .last-advert {
   background-color: #f7f7f7;
   height: 220px;
