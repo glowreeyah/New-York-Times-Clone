@@ -118,11 +118,19 @@ svg {
   font-size: 0.8rem;
 }
 
-.cambridge-main{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+.main {
+  max-width: 600px;
+  margin-left: 30%;
   padding: 30px 0;
+  font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  margin-bottom: 0.78125rem;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
 }
 
 .author {
