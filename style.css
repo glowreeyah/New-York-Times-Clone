@@ -231,6 +231,16 @@ svg {
     line-height: 1rem;
     margin: 0px auto 1em;
 }
+
 .caption a{
     color: gray;
+}
+
+.reader-links {
+  margin-left: 32%;
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  width: 40%;
+  background-color: white;
 }
