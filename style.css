@@ -86,7 +86,7 @@ svg {
   letter-spacing: 0.05em;
 }
 
-.space-ripples h1 {
+.article-header h1 {
   display: inline-block;
   max-width: 600px;
   font-size: 35px;
@@ -96,7 +96,7 @@ svg {
   position: relative;
 }
 
-.space-ripples img {
+.article-header img {
   width: 70%;
   vertical-align: top;
   margin-left: 15%;
@@ -104,7 +104,7 @@ svg {
   height: auto;
 }
 
-.space-ripples p {
+.article-header p {
   color: #666;
   font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
   font-size: 0.875rem;
@@ -113,7 +113,7 @@ svg {
   margin-top: 5px;
 }
 
-.space-ripples span {
+.article-header span {
   color: #888;
   font-size: 0.8rem;
 }
