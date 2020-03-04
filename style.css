@@ -341,3 +341,29 @@ figure {
   margin-top: 8px;
 }
 
+.hr-right {
+  border-top: 1px solid lightgray;
+  border: 0;
+}
+.popular-aside {
+  float: right;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 25%;
+}
+.popular-aside a {
+  color: black;
+  text-decoration: none;
+}
+.last-advert {
+  background-color: #f7f7f7;
+  height: 220px;
+  padding: 15px 0;
+  color: lightgray;
+  text-align: center;
+  font-size: 11px;
+  clear: both;
+}
+
+
+
