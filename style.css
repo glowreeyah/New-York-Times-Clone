@@ -461,3 +461,36 @@ ul {
   font-size: 11px;
   text-decoration: none;
 }
+
+.access {
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  font-size: 14px;
+  font-family: nyt-franklin;
+  border-top: 1px solid black;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  padding: 0 100px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+}
+.create {
+  text-align: center;
+  justify-content: center;
+  width: 87%;
+}
+.expand {
+  padding-top: 10px;
+  text-align: right;
+  width: 13%;
+}
+.access p {
+  display: inline;
+  font-size: 13px;
+  color: #4d4b4b;
+  font-weight: 600;
+  margin-right: 30px;
+}
