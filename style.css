@@ -424,7 +424,6 @@ ul {
   text-transform: capitalize;
   font-family: nyt-franklin;
   font-size: 0.875rem;
-  /* font-weight: normal; */
   width: 150px;
   height: 23px;
   line-height: 16px;
@@ -497,9 +496,7 @@ ul {
   margin-right: 30px;
 }
 
-.create a{
-  color:black;
+.create a {
+  color: black;
   text-decoration: none;
 }
-
-
