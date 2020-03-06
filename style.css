@@ -399,7 +399,7 @@ figure {
 .news {
   margin: 0;
   color: #333;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin,Georgia, 'Times New Roman', Times, serif;
   height: 25px;
   line-height: 15px;
   width: 150px;
@@ -422,7 +422,7 @@ ul {
   display: inline-block;
   text-decoration: none;
   text-transform: capitalize;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, Georgia, 'Times New Roman', Times, serif;
   font-size: 0.875rem;
   width: 150px;
   height: 23px;
@@ -465,7 +465,7 @@ ul {
   z-index: 1;
   display: flex;
   font-size: 14px;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin,Georgia, 'Times New Roman', Times, serif;
   border-top: 1px solid black;
   justify-content: space-between;
   -webkit-box-align: center;
