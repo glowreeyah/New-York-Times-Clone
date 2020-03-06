@@ -477,16 +477,19 @@ ul {
   bottom: 0;
   background-color: white;
 }
+
 .create {
   text-align: center;
   justify-content: center;
   width: 87%;
 }
+
 .expand {
   padding-top: 10px;
   text-align: right;
   width: 13%;
 }
+
 .access p {
   display: inline;
   font-size: 13px;
