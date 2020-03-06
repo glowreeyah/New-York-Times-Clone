@@ -315,7 +315,7 @@ figure {
   display: block;
   margin-bottom: 5px;
   width: 100%;
-  font-size: 0.6875rem
+  font-size: 0.6875rem;
 }
 
 .figcaption {
@@ -364,26 +364,31 @@ figure {
   font-size: 11px;
   clear: both;
 }
+
 .footer-links {
   padding-top: 10px;
   padding-bottom: 35px;
   padding-left: 50px;
   padding-right: 50px;
 }
+
 #line {
   border: 0;
   border-top: 2px solid lightgray;
   color: #d3d3d3;
 }
+
 .ny {
   display: flex;
   font-size: 13px;
   color: #808080;
 }
+
 .ny h6 {
   margin-left: 1100px;
   font-size: 0.67em;
 }
+
 .footer-lists {
   display: grid;
   grid-gap: 10px;
@@ -391,6 +396,7 @@ figure {
   margin-bottom: 20px;
   grid-template-columns: auto auto auto auto auto auto;
 }
+
 .news {
   margin: 0;
   color: #333;
@@ -399,17 +405,20 @@ figure {
   line-height: 15px;
   width: 150px;
 }
+
 ul {
   list-style-type: none;
   float: left;
   margin: 0;
   clear: both;
 }
+
 .items {
   padding-top: 10px;
   font-weight: normal;
 }
-.items a{
+
+.items a {
   color: #000;
   display: inline-block;
   text-decoration: none;
@@ -420,4 +429,35 @@ ul {
   width: 150px;
   height: 23px;
   line-height: 16px;
+}
+
+.list-six {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.list-six hr,
+.footer-hr {
+  border: 0;
+  border-top: 1px solid lightgray;
+  color: #d3d3d3;
+}
+
+.last a {
+  font-size: 11px;
+}
+
+.last-links {
+  text-align: center;
+}
+
+.last-links span {
+  margin-right: 25px;
+}
+
+.last-links a {
+  color: #808080;
+  font-size: 11px;
+  text-decoration: none;
 }
