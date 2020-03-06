@@ -29,7 +29,7 @@ Fork this project to your local machine
 
 ## Authors
 
-👤 **Hermela Fikre**
+👤 **Precious Udegbue**
 
 - Github: [@evabanegacom](https://github.com/evabanegacom)
 
@@ -53,5 +53,5 @@ Give a ⭐️ if you like this project!
 
 - Freecodecamp
 - [W3-CSS-GRID](https://www.w3schools.com/howto/howto_css_image_text.asp)
-- The Skinny on CSS Attribute Selectors (https://css-tricks.com/attribute-selectors/)
-- Taming Advanced CSS Selectors (https://www.smashingmagazine.com/2009/08/taming-advanced-css-selectors/)
+- [The Skinny on CSS Attribute Selectors] (https://css-tricks.com/attribute-selectors/)
+- [Taming Advanced CSS Selectors] (https://www.smashingmagazine.com/2009/08/taming-advanced-css-selectors/)
