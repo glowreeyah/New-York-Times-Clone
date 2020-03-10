@@ -1,7 +1,8 @@
 # New-York-Times
 
 
-> This project is to clone The New York Times Article Page
+> This a clone of The New York Times Article Page.
+> The purpose of this project is to practice positioning and floating.
 
 > ![screenshot](nyt_screenshot.png)
 
@@ -9,10 +10,11 @@
 
 - HTML &
 - CSS
+- VS Code Editor
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/glowreeyah/New-York-Times-Clone/nyt-article/index.html)
+[Live Demo Link](https://rawcdn.githack.com/glowreeyah/New-York-Times-Clone/228eaf8a37f65b48bce338feb2dec135233ab3f0/index.html)
 
 ## Getting Started
 
