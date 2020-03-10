@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif;
+  font-size: 100%;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -12,17 +19,9 @@ h2 {
 nav {
   background: #fff;
   display: flex;
-  padding: 10px 15px 6px;
+  padding: 2px;
   border-bottom: 1px solid #e2e2e2;
   height: 36px;
-  position: relative;
-}
-
-.paragraph-1 {
-  font-size: 22px;
-  font-weight: 1;
-  letter-spacing: 0.7px;
-  line-height: 2;
 }
 
 .navbar-left {
@@ -34,19 +33,8 @@ nav {
 
 .section,
 .fas {
-  margin-right: 30px;
-}
-
-.advert {
-  background-color: #f7f7f7;
-  height: 250px;
-  padding: 15px 0;
-  color: lightgray;
-  text-align: center;
-}
-
-.ad {
-  font-size: 20px;
+  margin-right: 20px;
+  color: black !important;
 }
 
 .section a {
@@ -70,6 +58,8 @@ nav {
 
 svg {
   color: black;
+  width: 190px;
+  height: auto;
 }
 
 .navbar-right {
@@ -99,8 +89,7 @@ svg {
   font-size: 35px;
   font-family: nyt-cheltenham, Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-  margin: 50px 0 20px 400px;
-  position: relative;
+  margin: 50px 0 20px 420px;
 }
 
 .article-header img {
@@ -195,12 +184,38 @@ svg {
   color: black;
 }
 
-.inflation-desc {
-  height: auto;
-  width: 63%;
+.inflation-theory {
+ /* display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 13px;
+ color: #666; */
+ position: relative;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 14px;
+ width: 70%;
+}
+
+.theory-header {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  margin-bottom: 1px;
+}
+
+.theory-description {
+  width: 800px;
+  line-height: 1.125rem;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  margin-right: 7px;
+  color: #666;
+}
+
+.inflation-theory img {
+  width: 100%;
   padding: 0;
-  position: relative;
-  margin-left: 20%;
 }
 
 .author-inflation {
@@ -260,9 +275,9 @@ svg {
 }
 
 .space-astronomy {
-  width: 90%;
+  width: 80%;
   margin: auto;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .astronomy-links {
@@ -278,8 +293,8 @@ svg {
 }
 
 .astronomy-links h5 {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .space-link1,
@@ -287,13 +302,19 @@ svg {
 .space-link3 {
   overflow: hidden;
   margin-bottom: 25px;
-  padding-bottom: 0;
+}
+
+.space-link1 a,
+.space-link2 a,
+.space-link3 a {
+  text-decoration: none;
 }
 
 .link1 {
   width: 32%;
   float: left;
   margin-right: 2%;
+  /* margin-left: 0; */
 }
 
 .link2 {
@@ -312,7 +333,7 @@ svg {
 .link2 img,
 .link3 img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 #space1,
@@ -328,7 +349,8 @@ figure {
   display: block;
   margin-bottom: 5px;
   width: 100%;
-  font-size: 0.6875rem;
+  font-size: 0.625rem;
+  margin: 0 auto;
 }
 
 .figcaption {
@@ -339,10 +361,7 @@ figure {
 
 .astronomy-links a {
   color: black;
-}
-
-.image-desc {
-  margin: 0;
+  text-decoration: none;
 }
 
 .image-date {
@@ -352,7 +371,7 @@ figure {
 }
 
 .hr-right {
-  border-top: 1px solid lightgray;
+  border-top: 2px solid lightgray;
   border: 0;
 }
 
@@ -368,13 +387,16 @@ figure {
   text-decoration: none;
 }
 
-.last-advert {
+/* .last-advert {
   background-color: #f7f7f7;
-  height: 220px;
+  height: 10px;
   padding: 15px 0;
-  color: lightgray;
   text-align: center;
   font-size: 11px;
+  clear: both;
+} */
+
+footer {
   clear: both;
 }
 
@@ -382,7 +404,7 @@ figure {
   padding-top: 10px;
   padding-bottom: 35px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 #line {
