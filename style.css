@@ -204,8 +204,7 @@ svg {
 }
 
 .theory-heading {
-  font-family: nyt-cheltenham, Cambria, Cochin, Georgia, Times,
-    "Times New Roman", serif;
+  font-family: nyt-cheltenham,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .theory-description {
@@ -365,7 +364,6 @@ figure {
   float: left;
   text-align: right;
   display: block;
-  margin-bottom: 5px;
   width: 100%;
   font-size: 0.625rem;
   margin: 0 auto;
