@@ -116,12 +116,11 @@ svg {
 
 .main {
   max-width: 600px;
-  margin-left: 30%;
   padding: 30px 0;
   font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
   font-size: 1.125rem;
   line-height: 1.5625rem;
-  margin-bottom: 0.78125rem;
+  margin: 0 auto;
 }
 
 .main iframe {
@@ -161,10 +160,9 @@ svg {
 }
 
 .editor {
-  margin: auto 70px;
-  width: 18%;
-  float: right;
-  left: 830px;
+  width: 300px;
+  left: 75%;
+  position: absolute;
 }
 
 .pick {
@@ -220,14 +218,15 @@ svg {
 
 .theory-image {
   background-image: url("images/inflation-theory.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 800px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 15px;
   row-gap: 35px;
   align-content: center;
   justify-items: center;
-  width: 60%;
+  width: 800px;
   height: auto;
 }
 
@@ -389,8 +388,7 @@ figure {
 }
 
 .hr-right {
-  border-top: 1px solid lightgray;
-  border: 0;
+  margin: 15px auto;
 }
 
 .popular-aside {
@@ -435,8 +433,12 @@ footer {
   align-items: center;
 }
 
-.ny h6 {
-  font-size: 0.67em;
+.homepage {
+  font-size: 0.6875em;
+  text-decoration: none;
+  color: #567b95;
+  font-family: nyt-franklin;
+  font-weight: 400;
 }
 
 .footer-lists {
@@ -524,7 +526,7 @@ ul {
   border-top: 1px solid black;
   justify-content: space-between;
   -webkit-box-align: center;
-  padding: 0 100px;
+  padding: 18px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -541,6 +543,7 @@ ul {
   padding-top: 10px;
   text-align: right;
   width: 13%;
+  padding: 0 50px;
 }
 
 .access p {
@@ -554,4 +557,14 @@ ul {
 .create a {
   color: black;
   text-decoration: none;
+}
+
+.astronomy-links a:hover,
+.popular-aside a:hover {
+  color: gray;
+}
+
+.footer-lists a:hover,
+.last-links a:hover {
+  text-decoration: underline;
 }
