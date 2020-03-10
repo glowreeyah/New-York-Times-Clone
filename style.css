@@ -185,23 +185,22 @@ svg {
 }
 
 .inflation-theory {
- /* display: flex;
+ display: flex;
  flex-direction: column;
  align-items: center;
  margin-bottom: 13px;
- color: #666; */
- position: relative;
- margin-left: auto;
- margin-right: auto;
- font-size: 14px;
- width: 70%;
+ color: #333;
 }
 
 .theory-header {
   font-size: 1.25rem;
-  line-height: 1.5rem;
-  font-style: normal;
-  margin-bottom: 1px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  width: 800px;
+}
+
+.theory-heading {
+  font-family: nyt-cheltenham, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .theory-description {
@@ -211,11 +210,26 @@ svg {
   font-size: 1rem;
   margin-right: 7px;
   color: #666;
+ }
+
+.theory-image {
+  background-image: url("images/inflation-theory.png");
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  row-gap: 35px;
+  align-content: center;
+  justify-items: center;
+  width: 60%;
+  height: auto;
 }
 
-.inflation-theory img {
-  width: 100%;
-  padding: 0;
+.evidence {
+  width: 180px;
+  margin-top: 120px;
+  font-size: 0.6rem;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
 }
 
 .author-inflation {
@@ -294,7 +308,7 @@ svg {
 
 .astronomy-links h5 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .space-link1,
@@ -314,7 +328,6 @@ svg {
   width: 32%;
   float: left;
   margin-right: 2%;
-  /* margin-left: 0; */
 }
 
 .link2 {
@@ -333,7 +346,6 @@ svg {
 .link2 img,
 .link3 img {
   width: 100%;
-  /* height: auto; */
 }
 
 #space1,
@@ -371,7 +383,7 @@ figure {
 }
 
 .hr-right {
-  border-top: 2px solid lightgray;
+  border-top: 1px solid lightgray;
   border: 0;
 }
 
@@ -382,34 +394,30 @@ figure {
   width: 25%;
 }
 
+.popular-aside h5 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
 .popular-aside a {
   color: black;
   text-decoration: none;
 }
 
-/* .last-advert {
-  background-color: #f7f7f7;
-  height: 10px;
-  padding: 15px 0;
-  text-align: center;
-  font-size: 11px;
-  clear: both;
-} */
-
 footer {
   clear: both;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer-links {
   padding-top: 10px;
-  padding-bottom: 35px;
-  padding-left: 50px;
-  padding-right: 20px;
+  padding-bottom: 15px;
 }
 
 #line {
   border: 0;
-  border-top: 2px solid lightgray;
+  border-top: 1px solid lightgray;
   color: #d3d3d3;
 }
 
@@ -417,10 +425,11 @@ footer {
   display: flex;
   font-size: 13px;
   color: #808080;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .ny h6 {
-  margin-left: 900px;
   font-size: 0.67em;
 }
 
@@ -428,16 +437,17 @@ footer {
   display: grid;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: auto;
   grid-template-columns: auto auto auto auto auto auto;
 }
 
-.news {
+.news,
+.subscribe {
   margin: 0;
   color: #333;
   font-family: nyt-franklin, Georgia, 'Times New Roman', Times, serif;
   height: 25px;
   line-height: 15px;
-  width: 150px;
   font-size: 0.8125rem;
   font-weight: bold;
 }
@@ -450,7 +460,7 @@ ul {
 }
 
 .items {
-  padding-top: 10px;
+  padding-top: 2px;
   font-weight: normal;
 }
 
@@ -461,21 +471,17 @@ ul {
   text-transform: capitalize;
   font-family: nyt-franklin, Georgia, 'Times New Roman', Times, serif;
   font-size: 0.875rem;
-  width: 150px;
   height: 23px;
   line-height: 16px;
 }
 
 .list-six {
   border-left: 1px solid lightgray;
-  padding-left: 10px;
+  padding-left: 25px;
 }
 
-.subscribe {
-  margin-bottom: 2px;
-  margin-top: 5px;
-  font-size: 0.8125rem;
-  font-family: nyt-franklin, Georgia, 'Times New Roman', Times, serif;
+.small {
+  max-width: 120px;
 }
 
 .list-six hr,
